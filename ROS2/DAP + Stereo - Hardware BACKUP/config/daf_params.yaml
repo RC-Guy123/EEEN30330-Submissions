@@ -1,0 +1,22 @@
+daf_obstacle_avoidance:
+  ros__parameters:
+    dt: 0.01
+    reach_thresh_goal: 0.5
+    r_robot: 0.5
+
+    k1: 5.1
+    k2: 4.6
+    k3: 6.9
+    d0: 1.15
+    alpha: 7.4
+    eta_rep: 1.4
+
+    goal: [8.0, 3.0]
+
+    # [x1, y1, r1, x2, y2, r2, ...]
+    obstacles: [2.0, -3.0, 0.8, 6.0, 1.0, 1.0]
+
+    max_linear_speed: 0.8
+    max_angular_speed: 1.5
+    max_virtual_speed: 1.0
+    heading_kp: 2.5

@@ -1,0 +1,14 @@
+DAP + LiDAR:
+Nothing
+
+DAP + Stereo:
+Get cameras working
+
+DAP + Stereo - Hardware:
+Finish
+
+All:
+Change every instance of DAF to DAP
+Unify
+Recomment
+Strip anything extra

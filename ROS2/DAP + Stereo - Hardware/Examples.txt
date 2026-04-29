@@ -1,0 +1,11 @@
+cd ~/ros2_ws
+rm -rf build install log
+source /opt/ros/kilted/setup.bash
+colcon build --packages-select my_package
+source install/setup.bash
+ros2 launch my_package hardware_launch.py
+
+
+cd ~/ros2_ws
+source install/setup.bash
+

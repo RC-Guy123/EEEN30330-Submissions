@@ -1,0 +1,7 @@
+Sim:
+
+Hardware:
+sudo apt install pigpio python3-pigpio
+pip install transforms3d
+sudo systemctl enable pigpiod
+sudo systemctl start pigpiod
